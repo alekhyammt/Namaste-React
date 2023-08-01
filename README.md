@@ -54,7 +54,10 @@ React 👩‍💻
 
 
 
-
+///////// jsx/////
+ in jsx, the JSX code will transpile to react.createElement then react element object it render as a HTML Element.
+ JSX code ==> react.createElement ==> reactElement(object) ==>HTMLElement(render)
+ 
     
 
 
