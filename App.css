@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+.logo {
+  padding: 20px;
+}
+.container input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.userIcon {
+  padding: 20px;
+}
