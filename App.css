@@ -1,17 +1,41 @@
-.container {
+
+.header{
   display: flex;
-  justify-content: space-between;
-  background-color: antiquewhite;
+justify-content: space-between;
+border: 1px solid black;
 }
-.logo {
-  padding: 20px;
+.logo{
+  width: 80px;
 }
-.container input {
+.navItems ul{
+  display: flex;
+  list-style:none ;
+  padding: 0px 30px;
+  font-size: 24px;
+}
+.navItems li{
+  padding: 10px;
+  margin: 10px;
+}
+.search{
+  padding: 10px;
+}
+.restro-card{
+  width:200px;
+  background-color: rgba(213, 244, 226, 0.961);
+  padding: 5px;
+  margin: 5px;
+}
+.restro-card:hover{
+  cursor: pointer;
+  border: 1px solid black;
+
+}
+.restro-logo{
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
 }
-.userIcon {
-  padding: 20px;
+.RestroContainer{
+  display: flex;
+  flex-wrap: wrap;
 }
+
